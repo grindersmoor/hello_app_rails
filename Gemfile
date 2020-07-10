@@ -42,6 +42,7 @@ group :development, :test do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.3.0'
   gem 'spring'
+  gem 'pg', '~>0.18'
 end
 
 group :development do
@@ -59,7 +60,7 @@ group :test do
 end
 
 group :production do
-gem 'pg', '0.17.1'
+gem 'pg', '~>0.18'
 gem 'rails_12factor', '0.0.2'
 end
 
